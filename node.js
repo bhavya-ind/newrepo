@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 sh 'node --version'
-                echo 'done'
             }
         }
     }
